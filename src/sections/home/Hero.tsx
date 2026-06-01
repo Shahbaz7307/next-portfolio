@@ -40,7 +40,7 @@ export default function Hero() {
         <div className="w-full">
           {/* Label */}
           <p className="hero-item mb-8 text-[11px] uppercase tracking-[6px] text-zinc-500">
-            Frontend & WordPress Developer 🚀
+            TEST123 FRONTEND DEVELOPER
           </p>
 
           {/* Heading */}
