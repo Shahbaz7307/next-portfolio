@@ -94,7 +94,7 @@ export default function FeaturedProjects() {
                       {project.title}
                     </h3>
 
-                    <p className="mt-4 max-w-2xl text-zinc-300 leading-relaxed">
+                    <p className="sm:block hidden mt-4 max-w-2xl text-zinc-300 leading-relaxed">
                       {project.description}
                     </p>
                   </div>

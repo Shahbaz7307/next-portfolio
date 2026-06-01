@@ -51,7 +51,7 @@ export default function Hero() {
               </h1>
             </div>
 
-            <div className="overflow-hidden flex justify-end md:pr-20">
+            <div className="overflow-hidden flex sm:justify-end md:pr-20">
               <h1 className="hero-item text-[72px] sm:text-[100px] md:text-[130px] lg:text-[170px] leading-[0.9] tracking-[-8px] font-semibold text-zinc-300">
                 Shabbir
               </h1>
@@ -59,7 +59,7 @@ export default function Hero() {
           </div>
 
           {/* Bottom Content */}
-          <div className="mt-16 grid gap-12 lg:grid-cols-2 items-end">
+          <div className="mt-16 sm:grid gap-12 lg:grid-cols-2 items-end">
             {/* Left */}
             <div className="hero-item max-w-md">
               <p className="text-zinc-400 text-lg leading-relaxed">
@@ -69,7 +69,7 @@ export default function Hero() {
                 user-focused digital experiences.
               </p>
 
-              <div className="mt-10 flex items-center gap-4 text-[11px] uppercase tracking-[4px] text-zinc-600">
+              <div className="mt-10 sm:flex-nowrap flex-wrap sm:mb-0 mb-10 flex items-center gap-4 text-[11px] uppercase tracking-[4px] text-zinc-600">
                 <span>React</span>
                 <span>Next.js</span>
                 <span>Vue.js</span>

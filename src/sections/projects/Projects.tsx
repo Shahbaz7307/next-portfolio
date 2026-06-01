@@ -57,7 +57,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="space-y-24">
+        <div className="sm:space-y-24 space-y-10">
           {archiveProjects.map((project, index) => (
             <div
               key={project.slug}
