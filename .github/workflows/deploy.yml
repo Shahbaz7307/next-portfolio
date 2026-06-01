@@ -34,4 +34,4 @@ jobs:
           port: 21
           local-dir: ./out/
           server-dir: /domains/shahbaz-shabbir.me/
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
