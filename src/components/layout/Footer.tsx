@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container-custom">
         <div className="flex flex-col items-center justify-between gap-6 border-t border-zinc-800 pt-10 md:flex-row">
           <div>
-            <h3 className="text-2xl font-semibold tracking-[-1px]">
+            <h3 className="text-2xl font-semibold sm:text-start text-center tracking-[-1px]">
               {"<Shahbaz />"}
             </h3>
 
